@@ -1,6 +1,6 @@
-just an empty Rails App project
+sample of shopping cart
 
-contact: eddie@5xruby.tw
+contact: qekudxuv@gmail.com
 
 ## Version
 Rails 4.2.1
