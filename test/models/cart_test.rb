@@ -33,5 +33,4 @@ class CartTest < ActiveSupport::TestCase
     assert_kind_of Product, cart.items.first.product
     assert_equal "Ruby Book", cart.items.first.product.name
   end
-
 end
