@@ -13,6 +13,10 @@ class User < ActiveRecord::Base
       #user.name = auth.info.name   # assuming the user model has a name
       #user.image = auth.info.image # assuming the user model has an image
     end
-end
+  end
+
+  def is_admin?
+    role == 'admin'
+  end
 
 end
