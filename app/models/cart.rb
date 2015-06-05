@@ -5,6 +5,10 @@ class Cart
     @items = []
   end
 
+  def total_price
+    total = @items.inject(0) { |sum, item| sum + item.price }
+  end
+
   def add_item(id)
     item = @items.find { |item| item.item_id == id }
     if item
